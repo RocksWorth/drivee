@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+DriveAura: Project Overview and Documentation
+Project Description
+DriveAura is a web-based learning platform designed to assist individuals preparing for Canadian driving tests (G1, G2, G, M1, M2) and those seeking to refresh their knowledge of road safety. The platform utilizes a data-driven approach to education: users begin with a diagnostic quiz which generates a personalized report. This report identifies specific areas for improvement and assigns targeted learning modules featuring instructional content, visual aids, and short assessments. Users are required to demonstrate adequate knowledge before progressing to subsequent sections.
 
-## Getting Started
+To improve engagement and motivation, DriveAura incorporates a gamification system known as "Aura points." These points are tracked and displayed on a leaderboard, allowing users to compare progress with friends or the global user base.
 
-First, run the development server:
+Potential Customers
+First-time license applicants (G1/M1)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+High school and post-secondary students
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Drivers with suspended or expired licenses seeking re-qualification
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Licensed drivers seeking refreshers or confidence-building exercises
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Marketable Features
+1. Aura Points and Gamification
+The platform rewards consistency and accuracy. Users earn Aura points for logging in and successfully completing modules. To encourage careful study, the system may include mechanics where restarting modules or failing assessments results in a loss of points. This data is displayed on a competitive leaderboard.
 
-## Learn More
+2. New-Generation Driving Modules
+With the industry shifting toward Electric Vehicles (EVs) and autonomous technologies, DriveAura includes specialized modules on regenerative braking systems, semi-autonomous driving features, and EV-specific safety. This addresses a gap in traditional driver education.
 
-To learn more about Next.js, take a look at the following resources:
+3. Psychological and Stress Management
+Driving is often a high-stress activity. DriveAura includes a road rage and stress simulation component. Users are presented with stressful road scenarios and earn points for selecting de-escalation strategies. This prepares users for the emotional aspects of driving, not just the technical rules.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Interactive Hazard Simulation
+The platform features a video-based simulation from a driver's point of view. Users must identify hazards in real-time—such as a pedestrian entering the road or a vehicle merging—by interacting with the platform at the exact moment a hazard is spotted. This builds reaction-based skills and situational awareness beyond rote memorization.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Competitive Analysis
+DriveAura distinguishes itself from existing products by offering a full-system learning experience rather than simple test preparation. While platforms like Ontario G1 Practice Test (g1.ca), tests.ca, and Quizlet provide practice questions and flashcards, DriveAura integrates:
 
-## Deploy on Vercel
+Real-time reaction testing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Psychological preparedness
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Modern vehicle technology education
+
+A unified gamified ecosystem
+
+Technical Stack
+Frontend Framework: Next.js (App Router)
+
+Programming Language: TypeScript
+
+Styling: Tailwind CSS
+
+Project Management: GitHub Classroom / Git
+
+Course: EECS 2311 - Software Development Project
+
+Institution: York University
+
+Group: Group 6
